@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Examplelab]]></title>
+  <link href="http://webexamplelab.heroku.com//atom.xml" rel="self"/>
+  <link href="http://webexamplelab.heroku.com//"/>
+  <updated>2012-06-16T20:48:39-03:00</updated>
+  <id>http://webexamplelab.heroku.com//</id>
+  <author>
+    <name><![CDATA[Hugo Ruscitti]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
