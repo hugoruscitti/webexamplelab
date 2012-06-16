@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://webexamplelab.heroku.com/
+title: Examplelab
+subtitle: Un sitio de experimentos
+author: Hugo Ruscitti
 simple_search: http://google.com/search
-description:
+description: Blog personal de Hugo Ruscitti, donde hay recetas, código e ideas.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
