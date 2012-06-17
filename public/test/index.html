@@ -9,8 +9,11 @@
   <meta name="author" content="Hugo Ruscitti">
 
   
-  <meta name="description" content=" Test Jun 16th, 2012 Esta página es una prueba sobre los distintos elementos
-sintácticos de octopress. Jun 16th, 2012 Tweet Recent Posts ">
+  <meta name="description" content="Test Jun 16th, 2012 Esta página es una prueba sobre los distintos elementos
+sintácticos de octopress. 1
+2
+rake "new_post["title"]"
+rake "new_page[ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -89,6 +92,76 @@ sintácticos de octopress. Jun 16th, 2012 Tweet Recent Posts ">
   
   <p>Esta página es una prueba sobre los distintos elementos
 sintácticos de octopress.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake "new_post["title"]"
+</span><span class='line'>rake "new_page[super-awesome]"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Comandos mas usados:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Código fuente:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="kn">import</span> <span class="nn">os</span>
+</span><span class='line'><span class="k">print</span> <span class="n">os</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>Incluye código fuente:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">include_code</span> <span class="p">[</span><span class="n">title</span><span class="p">]</span> <span class="p">[</span><span class="n">lang</span><span class="p">:</span><span class="n">language</span><span class="p">]</span> <span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="nb">file</span> <span class="o">%</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Incluir código:</p>
+
+<p>File /Users/hugoruscitti/proyectos/webexamplelab.git/source/downloads/code/hola.js could not be found</p>
+
+<p>Imágenes:</p>
+
+<p><img src="http://placekitten.com/890/280">
+<img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" >
+<img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #3" >
+<img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten"></p>
+
+<h2>Frases</h2>
+
+<blockquote><p>Over the past 24 hours I&#8217;ve been reflecting on my life & I&#8217;ve realized only one thing. I need a medieval battle axe.</p><footer><strong>@allanbranch</strong> <cite><a href='https://twitter.com/allanbranch/status/90766146063712256'>twitter.com/allanbranch/status/&hellip;</a></cite></footer></blockquote>
+
+
+<h2>Videos</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">video</span> <span class="n">url</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">video</span> <span class="p">[</span><span class="n">width</span> <span class="n">height</span><span class="p">]</span> <span class="p">[</span><span class="n">url</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">poster</span><span class="p">]</span> <span class="o">%</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Gist</h2>
+
+<div><script src='https://gist.github.com/996818.js?file='></script>
+<noscript><pre><code>@@ -590,7 +590,7 @@ class SpritesTest &lt; Test::Unit::TestCase
+  it &quot;should generate a sprite from nested folders&quot; do
+    css = render &lt;&lt;-SCSS
+-     @import &quot;nested/*.png&quot;;
++     @import &quot;nested/**/*.png&quot;;
+      @include all-nested-sprites;
+    SCSS
+    assert_correct css, &lt;&lt;-CSS</code></pre></noscript></div>
+
+
+
 
   
     <footer>

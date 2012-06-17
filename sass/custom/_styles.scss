@@ -3,3 +3,10 @@
 body {
     font-size: 1em;
 }
+
+header[role="banner"] {
+     background-image: url(/images/logo.png);
+     background-repeat: no-repeat;
+     background-position: center left;
+     padding-left: 300px;
+}
