@@ -41,10 +41,7 @@ rake "new_page[ &hellip;">
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">Examplelab</a></h1>
-  
-    <h2>Un sitio de experimentos</h2>
-  
+<a href="/"><img src='/images/logo.png'></a>
 </hgroup>
 
 </header>
@@ -98,7 +95,7 @@ sintácticos de octopress.</p>
 </span><span class='line'>rake "new_page[super-awesome]"</span></code></pre></td></tr></table></div></figure>
 
 
-<p>Comandos mas usados:</p>
+<h2>Comandos mas usados:</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -124,16 +121,32 @@ sintácticos de octopress.</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Incluir código:</p>
+<h2>Incluir código:</h2>
 
-<p>File /Users/hugoruscitti/proyectos/webexamplelab.git/source/downloads/code/hola.js could not be found</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">include_code</span> <span class="n">hola</span><span class="o">.</span><span class="n">js</span> <span class="o">%</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>Imágenes:</p>
+
+<h2>Imágenes:</h2>
 
 <p><img src="http://placekitten.com/890/280">
 <img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" >
 <img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #3" >
 <img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten"></p>
+
+<h2>Deploy en heroku</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">git</span> <span class="n">add</span> <span class="n">public</span>
+</span><span class='line'><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s">&quot;update&quot;</span>
+</span><span class='line'><span class="n">git</span> <span class="n">push</span> <span class="n">heroku</span>
+</span><span class='line'><span class="n">git</span> <span class="n">push</span> <span class="n">heroku</span> <span class="n">master</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h2>Frases</h2>
 
@@ -187,8 +200,6 @@ una prueba&#8230;</p>
   
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://webexamplelab.heroku.com//test/index.html" data-via="hugoruscitti" data-counturl="http://webexamplelab.heroku.com//test/index.html" >Tweet</a>
   
-  
-  <div class="g-plusone" data-size="medium"></div>
   
   
 </div>
@@ -260,14 +271,6 @@ una prueba&#8230;</p>
 
 
 
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
 
 
 

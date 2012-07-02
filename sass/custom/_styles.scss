@@ -4,9 +4,27 @@ body {
     font-size: 1em;
 }
 
-header[role="banner"] {
-     background-image: url(/images/logo.png);
-     background-repeat: no-repeat;
-     background-position: center left;
-     padding-left: 300px;
+html {
+    background: none;
+    background-color: white;
+}
+
+body {
+    background: none;
+    background-color: white;
+}
+
+
+body > div > div {
+    background: none;
+    background-color: white;
+}
+
+body > header{
+    background-color: white;
+}
+
+body > footer {
+    background: none;
+    background-color: white;
 }

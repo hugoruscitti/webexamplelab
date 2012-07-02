@@ -17,6 +17,7 @@ rake "new_page[super-awesome]"
 ```
 
 Comandos mas usados:
+--------------------
 
 ```
 rake preview
@@ -38,16 +39,32 @@ Incluye código fuente:
 ```
 
 Incluir código:
+---------------
 
+```
 {% include_code hola.js %}
-
+```
 
 Imágenes:
+---------
 
 {% img http://placekitten.com/890/280 %}
 {% img left http://placekitten.com/320/250 Place Kitten #2 %}
 {% img right http://placekitten.com/300/500 150 250 Place Kitten #3 %}
 {% img right http://placekitten.com/300/500 150 250 'Place Kitten #4' 'An image of a very cute kitten' %}
+
+
+Deploy en heroku
+----------------
+
+```
+git add public
+git commit -m "update"
+git push heroku
+git push heroku master
+```
+
+
 
 Frases
 ------
