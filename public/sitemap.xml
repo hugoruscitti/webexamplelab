@@ -1,19 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://webexamplelab.heroku.com//blog/2012/06/24/configurando-el-teclado-de-mac/
+        </loc>
+        <lastmod>2012-06-24T23:57:31-03:00</lastmod>
+    </url>
+    <url>
         <loc>http://webexamplelab.heroku.com//acerca-de/</loc>
-        <lastmod>2012-06-16T20:01:28-03:00</lastmod>
+        <lastmod>2012-07-01T23:23:53-03:00</lastmod>
     </url>
     <url>
         <loc>http://webexamplelab.heroku.com//blog/archives/</loc>
-        <lastmod>2012-06-16T19:55:06-03:00</lastmod>
+        <lastmod>2012-06-24T23:57:31-03:00</lastmod>
     </url>
     <url>
         <loc>http://webexamplelab.heroku.com//</loc>
-        <lastmod>2012-06-16T19:59:41-03:00</lastmod>
+        <lastmod>2012-06-24T23:57:31-03:00</lastmod>
     </url>
     <url>
         <loc>http://webexamplelab.heroku.com//test/</loc>
-        <lastmod>2012-06-16T23:06:25-03:00</lastmod>
+        <lastmod>2012-06-24T23:58:13-03:00</lastmod>
     </url>
 </urlset>

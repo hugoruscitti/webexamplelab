@@ -7,6 +7,7 @@ sharing: true
 footer: true
 ---
 
+
 Esta página es una prueba sobre los distintos elementos
 sintácticos de octopress.
 
@@ -67,3 +68,5 @@ Gist
 
 {% gist 996818 %}
 
+p
+una prueba...

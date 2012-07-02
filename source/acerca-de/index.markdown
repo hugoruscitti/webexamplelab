@@ -7,5 +7,6 @@ sharing: true
 footer: true
 ---
 
-Bienvenido!
+Bienvenido, este es mi nuevo blog realizado
+con octopress.
 

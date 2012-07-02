@@ -4,7 +4,7 @@
   <title><![CDATA[Examplelab]]></title>
   <link href="http://webexamplelab.heroku.com//atom.xml" rel="self"/>
   <link href="http://webexamplelab.heroku.com//"/>
-  <updated>2012-06-16T23:06:25-03:00</updated>
+  <updated>2012-07-01T23:26:48-03:00</updated>
   <id>http://webexamplelab.heroku.com//</id>
   <author>
     <name><![CDATA[Hugo Ruscitti]]></name>
@@ -12,5 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[configurando el teclado de mac]]></title>
+    <link href="http://webexamplelab.heroku.com//blog/2012/06/24/configurando-el-teclado-de-mac/"/>
+    <updated>2012-06-24T23:56:00-03:00</updated>
+    <id>http://webexamplelab.heroku.com//blog/2012/06/24/configurando-el-teclado-de-mac</id>
+    <content type="html"><![CDATA[<h1>Configurando el teclado de MAC</h1>
+
+<p>Pepepepe</p>
+]]></content>
+  </entry>
   
 </feed>
